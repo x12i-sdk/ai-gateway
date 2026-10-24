@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/ai-gateway-docs",
+  "packageVersion": "1.0.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/ai-gateway-docs",
+  "usageRepository": "https://github.com/x12i-sdk/ai-gateway",
+  "sourceRepository": null,
+  "sourceCommit": null,
+  "sourcePackageDirectory": null,
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:00:29.203706+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "a6320b9dcaac345aba01eac3f2d5b56e62f56a62ff53591461b6df6e35b554be",
+    "manifestSha256": "33d3ad08898142f46003db2f625cffb569ca9533b1a0d25dd2b59a3cad44a5de"
+  },
+  "npmPackages": [
+    "@x12i/ai-gateway-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}

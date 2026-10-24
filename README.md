@@ -33,3 +33,20 @@ The `package.json` in this repository is private to prevent accidental publicati
 ## Version 1.0.0 compatibility note
 
 The bundled SDK lookup currently returns undefined for the first use-case guide even though its Markdown is present in the exported `files` map. This example uses that public map as a fallback. The catalog backlog records the manifest/path mismatch for repair.
+
+## @x12i/ai-gateway runtime example
+
+AI Gateway - Unified interface for LLM provider routing and management.
+
+Normalize concrete provider routing at gateway ingress. This example consumes `@x12i/ai-gateway@11.1.4`.
+
+```sh
+npm install --ignore-scripts
+npm run example:ai-gateway
+```
+
+Source: [`src/ai-gateway-example.mjs`](src/ai-gateway-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.
+
+## Runtime example scope
+
+The runtime consumer uses local synthetic data. It does not invoke a model, connect to MongoDB, or publish a package. Any temporary workspace is created and removed by the example. Documentation and runtime examples have separate commands and are validated separately.

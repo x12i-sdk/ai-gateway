@@ -2,14 +2,15 @@
   "name": "ai-gateway-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/ai-gateway-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/ai-gateway-docs, @x12i/ai-gateway",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:ai-gateway": "node src/ai-gateway-example.mjs"
   },
   "devDependencies": {
     "@x12i/ai-gateway-docs": "1.0.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/ai-gateway.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/ai-gateway-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/ai-gateway-docs",
+  "dependencies": {
+    "@x12i/ai-gateway": "11.1.4"
+  }
 }

@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:00:29.203706+00:00",
+    "validatedAt": "2026-10-24T14:53:48.711417+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "a6320b9dcaac345aba01eac3f2d5b56e62f56a62ff53591461b6df6e35b554be",
-    "manifestSha256": "33d3ad08898142f46003db2f625cffb569ca9533b1a0d25dd2b59a3cad44a5de"
+    "manifestSha256": "cf81f2defb339796917c2c5677069864a87765399039038afdabfe9bfc582599"
   },
   "npmPackages": [
     "@x12i/ai-gateway-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/ai-gateway": {
+      "packageVersion": "11.1.4",
+      "title": "Normalize concrete provider routing at gateway ingress",
+      "entrypoint": "src/ai-gateway-example.mjs",
+      "command": "npm run example:ai-gateway",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "b9324e9f9e9c7b2824c026389b8f004473a101dd094b44eabc741574b2edb997",
+      "manifestSha256": "cf81f2defb339796917c2c5677069864a87765399039038afdabfe9bfc582599",
+      "validatedAt": "2026-10-24T14:53:48.711417+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/ai-gateway-example.mjs": "b9324e9f9e9c7b2824c026389b8f004473a101dd094b44eabc741574b2edb997",
+    "src/index.mjs": "a6320b9dcaac345aba01eac3f2d5b56e62f56a62ff53591461b6df6e35b554be"
+  }
 }
